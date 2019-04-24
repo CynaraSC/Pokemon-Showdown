@@ -1762,6 +1762,20 @@ let Formats = [
 		banlist: ['Illegal', 'Unreleased'],
 	},
 	{
+		name: "[Gen 4] 1v1",
+		desc: `Bring three Pok&eacute;mon to Team Preview and choose one to battle.`,
+		mod: 'gen4',
+		searchShow: false,
+		teamLength: {
+			validate: [1, 3],
+			battle: 1,
+		},
+		ruleset: ['Pokemon', 'Standard','Team Preview'],
+		banlist: ['Uber', 'Latias','Porygon-Z','Focus Sash', 'Soul Dew', 'Dark Void', 'Grass Whistle', 'Hypnosis', 'Lovely Kiss', 'Perish Song', 'Sing', 'Sleep Powder', 'Spore', 'Flash', 'Kinesis', 'Mirror Shot', 'Mud Bomb', 'Mud-Slap', 'Muddy Water', 'Octazooka', 'Sand Attack', 'Smokescreen', 'Explosion', 'Self Destruct'],
+		unbanlist: ['Wobbuffet', 'Wynaut'],
+
+	},
+	{
 		name: "[Gen 4] Custom Game",
 
 		mod: 'gen4',
